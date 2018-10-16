@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="时间"/>
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刷新"/>
+        <Button
+            android:id="@+id/picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片切换"/>
+        <Button
+            android:id="@+id/slid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="侧滑"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/occur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="弹出框"/>
+
+        <Button
+            android:id="@+id/popupwindow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="popup"/>
+        <Button
+            android:id="@+id/popup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="popup2"/>
+        <Button
+            android:id="@+id/saoma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="二维码"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="对话框"/>
+
+        <Button
+            android:id="@+id/occurs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="轮播图片"/>
+        <Button
+            android:id="@+id/fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fragment"/>
+        <Button
+            android:id="@+id/refresh1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="refresh"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pickpicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片选择器"/>
+
+        <Button
+            android:id="@+id/flybutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="悬浮+搜索"/>
+        <Button
+           android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日历"/>
+        <Button
+           android:id="@+id/service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="service"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/muchfloat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="多悬浮"/>
+
+        <Button
+            android:id="@+id/CircleMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中心菜单"/>
+        <Button
+            android:id="@+id/notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新消息提示"/>
+        <Button
+            android:id="@+id/clickall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点开全文"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手势锁"/>
+
+        <Button
+            android:id="@+id/lock2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手势密码"/>
+        <Button
+            android:id="@+id/choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全选"/>
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="滑动删除"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pageWater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="页面水印"/>
+
+        <Button
+            android:id="@+id/pictureWatre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片水印"/>
+        <Button
+            android:id="@+id/Bus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RxBus+EventBus"/>
+        <!--<Button-->
+            <!--android:id="@+id/delete"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="滑动删除"/>-->
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/recorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="语音聊天"/>
+
+        <!--<Button-->
+            <!--android:id="@+id/pictureWatre"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="图片水印"/>-->
+        <!--<Button-->
+            <!--android:id="@+id/Bus"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="RxBus+EventBus"/>-->
+        <!--<Button-->
+        <!--android:id="@+id/delete"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="滑动删除"/>-->
+
+    </LinearLayout>
+</LinearLayout>

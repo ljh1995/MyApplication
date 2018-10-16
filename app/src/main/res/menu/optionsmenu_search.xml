@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_search"
+        android:title="搜索"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item android:id="@+id/action_edit"
+        android:title="编辑"
+        android:orderInCategory="100"
+        android:icon="@drawable/write_icon"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/scan_local_music"
+        android:icon="@drawable/lv"
+        android:orderInCategory="100"
+        android:title="扫描本地音乐"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/select_sort_way"
+        android:icon="@drawable/lt"
+        android:orderInCategory="100"
+        android:title="选择排序方式"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/get_cover_lyrics"
+        android:icon="@drawable/lq"
+        android:orderInCategory="100"
+        android:title="获取封面歌词"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/imporve_tone_quality"
+        android:icon="@drawable/lw"
+        android:orderInCategory="100"
+        android:title="升级音质"
+        app:showAsAction="never"
+        />
+</menu>

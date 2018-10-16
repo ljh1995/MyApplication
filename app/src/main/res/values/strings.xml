@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <!--二维码扫描-->
+    <string name="scan_text">将二维码/条码放入框内,即可自动扫描</string>
+    <string name="scanning_text">二维码/条码</string>
+
+    <string name="title_activity_index_main">Refresh</string>
+    <string name="title_style">样式</string>
+    <string name="title_using">使用</string>
+    <string name="title_practice">实战</string>
+
+    <string name="calendar_year">%d-</string>
+
+    <!--提示-->
+    <string name="load_more_text">正在加载...</string>
+
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+
+    <string name="str_normal">按住 说话</string>
+    <string name="str_recording">松开 结束</string>
+    <string name="str_cancal">松开手指，取消发送</string>
+</resources>

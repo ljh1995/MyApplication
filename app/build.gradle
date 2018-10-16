@@ -1,0 +1,76 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.3"
+    defaultConfig {
+        applicationId "com.example.administrator.myapplication"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    allprojects {
+        repositories {
+            jcenter()
+            //as支持从maven上下依赖库
+            maven { url 'https://maven.google.com' }
+            maven { url "https://jitpack.io" }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.0.0-alpha1'
+    testCompile 'junit:junit:4.12'
+    compile files('libs/xUtils-2.6.14.jar')
+    compile files('libs/zxing.jar')
+    compile project(':FlycoAnimation_Lib')
+    compile project(':FlycoDialog_Lib')
+    compile project(':imagepicker')
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'org.xutils:xutils:3.3.36'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.youth.banner:banner:1.4.9'
+    //最新版本
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-0'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5-alpha-0'
+    compile project(':calendar')
+    compile project(':common')
+    //搜索
+    compile 'com.miguelcatalan:materialsearchview:1.0.1'
+   //多悬浮
+    compile 'com.github.lilei644:SpringActionMenu:1.0.0'
+//中心圆菜单
+    compile 'com.github.imangazalievm:circlemenu:1.0.2'
+
+    //权限设置
+    compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar'
+//    compile 'io.reactivex:rxandroid:1.1.0'  手势锁
+    compile 'com.andrognito.patternlockview:patternlockview:1.0.0'
+    // Optional, for RxJava2 adapter手势锁
+    compile 'com.andrognito.patternlockview:patternlockview-reactive:1.0.0'
+    // 滑动删除
+    compile 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0'
+    //Adapter终结者 地址：https://github.com/mcxtzhang/all-base-adapter
+    compile 'com.github.mcxtzhang:all-base-adapter:V1.5.2'
+    //EventBus
+//    compile 'org.greenrobot:eventbus:3.1.1'
+    //RxAndroid
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.4'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+}

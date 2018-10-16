@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:zcl="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请绘制手势密码"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/viewfinder_mask"/>
+
+        <com.example.administrator.myapplication.view.GestureLockViewGroup
+            android:id="@+id/id_gestureLockViewGroup"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            zcl:count="3"
+            zcl:tryTimes="5"></com.example.administrator.myapplication.view.GestureLockViewGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

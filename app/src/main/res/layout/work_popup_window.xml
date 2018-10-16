@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/you"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/list_names_textview"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="你"
+             />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/num_linearlayout_id"
+            android:background="@drawable/line"></View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/list_names_textview"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="我"
+             />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/num_linearlayout_id"
+            android:background="@drawable/line"></View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/list_names_textview"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="我们"
+             />
+
+        <View
+            android:id="@+id/view_1_id"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/num_linearlayout_id"
+            android:background="@drawable/line"></View>
+
+    </LinearLayout>
+</LinearLayout>

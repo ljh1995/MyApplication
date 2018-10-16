@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:background="#ebebeb"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="10dp">
+    </ListView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"></View>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ebebeb">
+
+        <com.example.administrator.myapplication.view.AudioRecorderButton
+            android:id="@+id/recorder_btn"
+            android:background="@drawable/btn_recorder_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/str_normal"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textColor="#727272"
+            android:minHeight="0dp"/>
+
+    </FrameLayout>
+
+</LinearLayout>

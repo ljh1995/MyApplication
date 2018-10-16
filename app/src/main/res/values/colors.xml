@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="Indigo_colorPrimaryDark">#303f9f</color>
+    <color name="Indigo_colorPrimary">#3f51b5</color>
+    <color name="Indigo_nav_color">#4675FF</color>
+    <color name="cornflowerblue">#6495ed</color> <!-- 菊兰色 -->
+
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <color name="white">#ffff</color>
+    <color name="colorDivision">#33aaaaaa</color>
+    <color name="blue">#33b5e5</color>
+
+    <color name="color_select_date_dialog_line">#B8B5D4</color>
+    <color name="color_small_calendar_text">#7452E4</color> 
+    <color name="color_select_date_dialog_edit_text_bg_focus">#A68BFF</color> 
+
+    <!-- action menu color -->
+    <color name="menuNormalRed">#ffff0000</color>
+    <color name="menuPressRed">#ffd2322d</color>
+    <color name="menuNormalInfo">#ff90FB98</color>
+    <color name="menuPressInfo">#ff98ff90</color>
+
+    <color name="gray_small1">#F2F2F2</color><!-- 小灰色 -->
+    <color name="background1">#f5f5f5</color>
+</resources>

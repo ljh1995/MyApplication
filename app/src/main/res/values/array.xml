@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="isquliified_tab_titles">
+        <item>合格</item>
+        <item>不合格</item>
+    </string-array>
+
+    <string-array name="list">
+        <item>列表项1</item>
+        <item>列表项2</item>
+        <item>列表项3</item>
+        <item>列表项4</item>
+        <item>列表项5</item>
+        <item>列表项6</item>
+        <item>列表项7</item>
+    </string-array>
+    <string-array name="calendar_month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>
