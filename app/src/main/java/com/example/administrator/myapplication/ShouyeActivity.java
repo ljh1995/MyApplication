@@ -22,6 +22,7 @@ import com.example.administrator.myapplication.view.DataBean;
 import com.example.administrator.myapplication.view.RefreshActivity;
 import com.example.administrator.myapplication.view.RxBus;
 import com.example.administrator.myapplication.view.RxBusMessage;
+import com.example.administrator.myapplication.view.StockUtil;
 import com.tbruyelle.rxpermissions2.Permission;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 
@@ -61,6 +62,7 @@ public class ShouyeActivity extends Activity{
     private Button pictureWatre;
     private Button Bus;
     private Button recorder;
+    private Button filedownload;
 
     private PopupWindow popupWindow;
 
@@ -107,8 +109,10 @@ public class ShouyeActivity extends Activity{
         delete= (Button) findViewById(R.id.delete);
         pageWater= (Button) findViewById(R.id.pageWater);
         pictureWatre= (Button) findViewById(R.id.pictureWatre);
+        filedownload= (Button) findViewById(R.id.filedownload);
     }
     protected void initView() {
+        filedownload.setOnClickListener(filedownloadOnClickListener);
         pictureWatre.setOnClickListener(pictureWatreOnClickListener);
         pageWater.setOnClickListener(pageWaterOnClickListener);
         delete.setOnClickListener(deleteOnClickListener);
@@ -138,6 +142,13 @@ public class ShouyeActivity extends Activity{
         Bus.setOnClickListener(BusOnClickListener);
         recorder.setOnClickListener(recorderOnClickListener);
     }
+    private View.OnClickListener filedownloadOnClickListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            String fileurl = "/jeesite/upload/20181018/signaturefiles/1/EAM2.0.pdf";
+            new StockUtil().downLoadFile(ShouyeActivity.this, fileurl);
+        }
+    };
     private View.OnClickListener recorderOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {

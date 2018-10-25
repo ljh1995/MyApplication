@@ -194,11 +194,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="RxBus+EventBus"/>
-        <!--<Button-->
-            <!--android:id="@+id/delete"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:text="滑动删除"/>-->
 
     </LinearLayout>
     <LinearLayout
@@ -212,11 +207,11 @@
             android:layout_height="wrap_content"
             android:text="语音聊天"/>
 
-        <!--<Button-->
-            <!--android:id="@+id/pictureWatre"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:text="图片水印"/>-->
+        <Button
+            android:id="@+id/filedownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文件下载"/>
         <!--<Button-->
             <!--android:id="@+id/Bus"-->
             <!--android:layout_width="wrap_content"-->
